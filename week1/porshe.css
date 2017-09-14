@@ -1,0 +1,23 @@
+a{color:red;font-size:24px; 
+
+}
+.qw{color:darkblue;}
+
+.text:hover{
+    color:green;
+}
+
+body{
+background-image: url("http://365psd.ru/images/backgrounds/bg-lightl-877.jpg"); 
+background-repeat:no-repeat;
+background-size: 100% 100%;
+}
+
+.photo{
+transform: scale(1);    
+    
+}
+.opisanie:hover{
+transform: scale(0.5)
+    
+}
