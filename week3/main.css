@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url("http://backgroundlabs.com/wp-content/uploads/2013/04/subtle-mosaic-pattern.png")
+}
+.container {
+    width: 650px;
+    min-height: 100vh;
+    background-color: white;
+    position: relative;
+}
+header {
+    width: 100%;
+} 
+header nav {
+    width: 100%;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: space-between;
+}
+header nav a {
+    padding: 5px 50px;
+}
+header nav .active {
+    background-color: #FC0D1B;
+    color: white;
+}
+.logo_part {
+    display: flex;
+}
+.logo_part .search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_section {
+    display: inline-flex;
+    flex-direction: column;
+}
+.cards {
+    flex: 1;
+}
+.three {
+    margin: 10px 0;
+    width: 650px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border: 1px solid #FC0D1B;
+    border-radius: 10px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #599BFC;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+}
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+    bottom: 0;   
+}
+
+a:hover {
+    background-color: #FC0D1B;
+    color: white;
+}
